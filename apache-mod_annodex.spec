@@ -6,7 +6,7 @@
 Summary:	Apache module for server-side support of annodex media
 Name:		apache-%{mod_name}
 Version:	0.2.2
-Release:	%mkrel 3
+Release:	%mkrel 4
 Group:		System/Servers
 License:	Apache License
 URL:		http://www.annodex.net/
