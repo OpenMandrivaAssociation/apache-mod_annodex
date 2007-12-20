@@ -23,6 +23,7 @@ BuildRequires:	libannodex-devel
 BuildRequires:	libcmml-devel >= 0.8
 BuildRequires:	libogg-devel
 BuildRequires:	pkgconfig
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 mod_annodex provides full support for Annodex.net media. For more details about
