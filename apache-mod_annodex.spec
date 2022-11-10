@@ -43,15 +43,12 @@ following features:
           prefers type text/x-cmml over application/x-annodex.
 
 %prep
-
-%setup -q -n %{mod_name}-ap20-%{version}
+%autosetup -p0 -n %{mod_name}-ap20-%{version}
 
 %build
-
 %{_bindir}/apxs -c %{mod_name}.c `pkg-config annodex cmml --cflags --libs`
 
 %install
-
 install -d %{buildroot}%{_sysconfdir}/httpd/modules.d
 install -d %{buildroot}%{_libdir}/apache-extramodules
 
