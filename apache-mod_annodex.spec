@@ -9,7 +9,7 @@ Version:	0.2.2
 Release:	14
 Group:		System/Servers
 License:	Apache License
-URL:		http://www.annodex.net/
+URL:		https://www.annodex.net/
 Source:		http://www.annodex.net/software/mod_annodex/download/%{mod_name}-ap20-%{version}.tar.bz2
 Source1:	%{mod_conf}.bz2
 Requires(pre): rpm-helper
